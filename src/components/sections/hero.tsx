@@ -84,6 +84,7 @@ export function Hero() {
 						>
 							<Button
 								size="lg"
+								nativeButton={false}
 								render={
 									<a href="#contact">
 										<Icon name="Mail" />
@@ -94,6 +95,7 @@ export function Hero() {
 							<Button
 								variant="outline"
 								size="lg"
+								nativeButton={false}
 								render={
 									<a href={profile.cvFile} download>
 										<Icon name="Download" />

@@ -32,7 +32,7 @@ export function Contact() {
 			/>
 
 			<div className="mt-12 grid gap-6 lg:grid-cols-5">
-				<div className="flex flex-col gap-4 lg:col-span-3">
+				<div className="flex min-w-0 flex-col gap-4 lg:col-span-3">
 					{contactChannels.map((channel, i) => {
 						const isCopied = copied === channel.id;
 						return (
@@ -105,7 +105,7 @@ export function Contact() {
 					</Reveal>
 				</div>
 
-				<Reveal from="left" className="lg:col-span-2">
+				<Reveal from="left" className="min-w-0 lg:col-span-2">
 					<Card className="relative flex h-full flex-col justify-center overflow-hidden p-6 sm:p-8">
 						<div
 							aria-hidden
@@ -122,6 +122,7 @@ export function Contact() {
 						</p>
 						<div className="mt-6 flex flex-col gap-3 sm:flex-row">
 							<Button
+								nativeButton={false}
 								render={
 									<a href={`mailto:${profile.email}`}>
 										<Icon name="Mail" />
@@ -131,6 +132,7 @@ export function Contact() {
 							/>
 							<Button
 								variant="outline"
+								nativeButton={false}
 								render={
 									<a href={profile.cvFile} download>
 										<Icon name="Download" />

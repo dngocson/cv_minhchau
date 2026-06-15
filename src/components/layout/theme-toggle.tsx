@@ -14,6 +14,7 @@ export function ThemeToggle() {
 		<Button
 			variant="ghost"
 			size="icon"
+			className="size-11 lg:size-9"
 			onClick={toggleTheme}
 			aria-label={isDark ? t("common.lightMode") : t("common.darkMode")}
 			title={isDark ? t("common.lightMode") : t("common.darkMode")}

@@ -62,6 +62,7 @@ export function Footer() {
 							))}
 						</ul>
 						<Button
+							nativeButton={false}
 							render={
 								<a href={profile.linkedin} target="_blank" rel="noreferrer">
 									<Icon name="Linkedin" />

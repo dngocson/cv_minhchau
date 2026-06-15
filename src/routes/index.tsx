@@ -17,7 +17,13 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
 	return (
-		<div className="min-h-screen bg-background">
+		// `overflow-x-clip` contains the transient horizontal transforms of the
+		// scroll-entrance animations (Reveal slides elements in from ±x). The
+		// layout itself is already within the viewport; this is animation
+		// containment, not a layout band-aid. `clip` (not `hidden`) avoids
+		// creating a scroll container and never clips the fixed header (the root
+		// is not a containing block for fixed positioning).
+		<div className="min-h-screen overflow-x-clip bg-background">
 			<ScrollProgress />
 			<Navbar />
 			<a
