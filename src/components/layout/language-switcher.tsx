@@ -55,7 +55,7 @@ export function LanguageSwitcher() {
 						animate={{ opacity: 1, y: 0, scale: 1 }}
 						exit={{ opacity: 0, y: -6, scale: 0.97 }}
 						transition={{ duration: 0.15 }}
-						className="absolute right-0 z-50 mt-2 w-44 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border bg-popover p-1 shadow-lg"
+						className="absolute right-0 z-50 mt-2 w-44 max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border bg-popover p-1 shadow-lg flex flex-col gap-1"
 					>
 						{SUPPORTED_LANGUAGES.map((lang) => {
 							const active = lang.code === language;
