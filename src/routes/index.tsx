@@ -40,7 +40,7 @@ function Home() {
 				<Skills />
 				<Education />
 				<Certifications />
-				<Projects />
+				{/* <Projects /> */}
 				<Contact />
 			</main>
 			<Footer />

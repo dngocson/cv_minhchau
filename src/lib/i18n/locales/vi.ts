@@ -2,9 +2,9 @@ import type { Resources } from "./en";
 
 export const vi: Resources = {
 	meta: {
-		title: "Nguyễn Minh Châu — Kỹ sư Kinh doanh Hóa chất",
+		title: "Nguyễn Minh Châu — Nhân viên kinh doanh Hóa chất",
 		description:
-			"Hồ sơ năng lực của Nguyễn Minh Châu — Kỹ sư Kinh doanh Hóa chất kiêm Nhân viên Kinh doanh B2B, kết hợp nền tảng Công nghệ Hóa học loại Giỏi với kết quả thực tế trong lĩnh vực mỹ phẩm, hóa chất và sản xuất.",
+			"Hồ sơ năng lực của Nguyễn Minh Châu — Nhân viên kinh doanh Hóa chất kiêm Nhân viên Kinh doanh B2B, kết hợp nền tảng Công nghệ Hóa học loại Giỏi với kết quả thực tế trong lĩnh vực mỹ phẩm, hóa chất và sản xuất.",
 	},
 	nav: {
 		brand: "Nguyễn Minh Châu",
@@ -40,21 +40,21 @@ export const vi: Resources = {
 	},
 	hero: {
 		name: "Nguyễn Minh Châu",
-		role: "Kỹ sư Kinh doanh Hóa chất",
+		role: "Nhân viên kinh doanh",
 		subrole: "Nhân viên Kinh doanh B2B · Nền tảng Công nghệ Hóa học",
 		available: "Sẵn sàng cho các cơ hội kinh doanh B2B & công nghiệp",
 		tagline:
-			"Biến chuyên môn hóa học thành kết quả kinh doanh — kết nối khách hàng công nghiệp và B2B với giải pháp phù hợp.",
+			"Đồng hành cùng khách hàng trong quá trình phát triển sản phẩm bằng các giải pháp nguyên liệu phù hợp và hiệu quả.",
 		summary:
 			"Với tôi, bán hàng không chỉ là giới thiệu sản phẩm mà còn là truyền tải câu chuyện và giá trị đằng sau giải pháp dành cho khách hàng. Với hơn 2 năm kinh nghiệm làm việc cùng khách hàng B2B, tôi đã xây dựng mối quan hệ, đàm phán và phát triển cơ hội kinh doanh — và mong muốn tiếp tục tạo ra giá trị cho cả khách hàng lẫn doanh nghiệp.",
 		location: "TP. Hồ Chí Minh, Việt Nam",
 	},
 	about: {
 		kicker: "Giới thiệu",
-		title: "Người làm khoa học bán hàng bằng chiều sâu",
+		title: "Câu chuyện tạo kết nối, kết nối tạo giá trị",
 		paragraphs: [
-			"Tôi là Nhân viên Kinh doanh B2B với bằng Kỹ sư Công nghệ Hóa học loại Giỏi — điều giúp tôi nói được cả ngôn ngữ của phòng thí nghiệm lẫn ngôn ngữ kinh doanh. Tôi giúp khách hàng trong lĩnh vực công nghiệp, hóa chất và sản xuất tìm được nguyên liệu, giải pháp thực sự phù hợp với sản phẩm và định vị thị trường của họ.",
-			"Hơn hai năm làm kinh doanh kỹ thuật, tôi đảm nhận trọn vẹn quy trình — tìm kiếm, tư vấn, báo giá, đàm phán và ký kết — đồng thời đảm bảo tiến độ giao hàng và giữ chân khách hàng quay lại. Trước khi làm sales, các vai trò nghiên cứu và trợ giảng đã rèn cho tôi tư duy phân tích và khả năng giao tiếp mà tôi sử dụng mỗi ngày.",
+			"Là một kỹ sư Công nghệ Hóa học theo đuổi lĩnh vực kinh doanh B2B, tôi phát huy khả năng kết hợp giữa hiểu biết kỹ thuật và tư duy thương mại để tư vấn giải pháp phù hợp, xây dựng quan hệ khách hàng và hỗ trợ phát triển hoạt động kinh doanh.",
+			"Kiến thức chuyên môn giúp tôi nắm bắt bản chất sản phẩm, trong khi trải nghiệm làm việc với khách hàng giúp tôi hiểu rõ nhu cầu thị trường. Sự giao thoa giữa hai yếu tố này cho phép tôi đưa ra những giải pháp vừa đáp ứng yêu cầu kỹ thuật, vừa tạo ra giá trị kinh doanh thực tế.",
 		],
 		highlightsTitle: "Điểm khác biệt của tôi",
 		highlights: [
@@ -72,7 +72,7 @@ export const vi: Resources = {
 			},
 			{
 				title: "Tốt nghiệp loại Giỏi",
-				text: 'Công nghệ Hóa học (Chương trình Tiên tiến), GPA 8.14/10, "Sinh viên 5 tốt" cấp Thành phố.',
+				text: 'Công nghệ Hóa học (Chương trình chất lượng cao), GPA 8.14/10, "Sinh viên 5 tốt" cấp Thành phố.',
 			},
 		],
 		languagesTitle: "Ngôn ngữ",
@@ -82,14 +82,14 @@ export const vi: Resources = {
 		},
 		proficiency: {
 			native: "Bản ngữ",
-			b2: "Chuyên nghiệp (VSTEP B2)",
+			b2: "VSTEP B2",
 		},
 	},
 	experience: {
 		kicker: "Lộ trình nghề nghiệp",
 		title: "Kinh nghiệm làm việc",
 		subtitle:
-			"Từ phòng thí nghiệm hóa học đến tuyến đầu kinh doanh B2B — một hành trình dựa trên uy tín kỹ thuật và niềm tin của khách hàng.",
+			"Hành trình từ phòng thí nghiệm đến kinh doanh B2B, nơi tôi học hỏi và tích lũy kinh nghiệm dựa trên nền tảng kỹ thuật và niềm tin của khách hàng.",
 		skillsLabel: "Kỹ năng chính",
 		items: {
 			tuongNgoc: {
@@ -148,7 +148,7 @@ export const vi: Resources = {
 				text: "Đồng tác giả một bài báo trên tạp chí quốc tế có phản biện.",
 			},
 			{
-				title: "Bằng kỹ sư loại Giỏi",
+				title: "Bằng cử nhân loại Giỏi",
 				text: "Tốt nghiệp loại Giỏi ngành Công nghệ Hóa học — GPA 8.14/10.",
 			},
 		],
@@ -197,10 +197,10 @@ export const vi: Resources = {
 	education: {
 		kicker: "Nền tảng học vấn",
 		title: "Học vấn",
-		degree: "Kỹ sư Công nghệ Kỹ thuật Hóa học (Chương trình Tiên tiến)",
+		degree: "Cử nhân Công nghệ Kỹ thuật Hóa học (Chương trình chất lượng cao)",
 		faculty: "Khoa Hóa học",
 		school: "Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM",
-		period: "Tốt nghiệp 2023",
+		period: "Tốt nghiệp 2024",
 		gpaLabel: "GPA",
 		gpaValue: "8.14 / 10",
 		honorsTitle: "Danh hiệu & thành tích",
@@ -217,15 +217,15 @@ export const vi: Resources = {
 		items: {
 			vstep: {
 				title: "Trình độ Tiếng Anh — VSTEP B2",
-				desc: "Chứng nhận tiếng Anh bậc trung cao cấp, hỗ trợ giao tiếp tự tin với khách hàng B2B quốc tế.",
+				desc: "Chứng nhận tiếng Anh bậc trung cấp,có thể đọc hiểu tài liệu chuyên ngành.",
 			},
 			fiveGoodStudent: {
 				title: '"Sinh viên 5 tốt" — cấp Thành phố',
 				desc: "Là 1 trong 307 sinh viên tiêu biểu của TP. Hồ Chí Minh và được trao danh hiệu năm 2023.",
 			},
 			honors: {
-				title: "Bằng Kỹ sư loại Giỏi",
-				desc: "Tốt nghiệp loại Giỏi ngành Công nghệ Hóa học (Chương trình Tiên tiến), GPA 8.14/10.",
+				title: "Bằng Cử nhân loại Giỏi",
+				desc: "Tốt nghiệp loại Giỏi ngành Công nghệ Hóa học (Chương trình Chất lượng cao), GPA 8.14/10.",
 			},
 			scholarships: {
 				title: "Học bổng thành tích",
@@ -280,16 +280,14 @@ export const vi: Resources = {
 			linkedin: "LinkedIn",
 		},
 		ctaTitle: "Sẵn sàng cho cơ hội mới",
-		ctaText:
-			"Sẵn sàng cho các vị trí kinh doanh B2B, kỹ thuật và công nghiệp. Cách nhanh nhất để liên hệ với tôi là qua email.",
+		ctaText: "Sẵn sàng cho các vị trí kinh doanh B2B, kỹ thuật và công nghiệp.",
 		ctaButton: "Gửi email cho tôi",
 	},
 	footer: {
-		tagline:
-			"Kỹ sư Kinh doanh Hóa chất kết nối chiều sâu kỹ thuật và kết quả kinh doanh.",
+		tagline: "Nhân viên Kinh doanh B2B.",
 		navTitle: "Khám phá",
 		connectTitle: "Kết nối",
 		rights: "Bảo lưu mọi quyền.",
-		builtWith: "Thiết kế & phát triển với React, TanStack & Motion.",
+		builtWith: "",
 	},
 };

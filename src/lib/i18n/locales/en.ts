@@ -2,9 +2,9 @@
 // other locale files satisfy `Resources` by shape rather than exact wording.
 export const en = {
 	meta: {
-		title: "Nguyen Minh Chau — Chemical Sales Engineer",
+		title: "Nguyen Minh Chau — Chemical Sales Executive",
 		description:
-			"Portfolio of Nguyen Minh Chau, a Chemical Sales Engineer and B2B Sales Executive pairing an honors Chemical Technology background with proven results across cosmetics, chemical and manufacturing markets.",
+			"Profile of Nguyen Minh Chau — Chemical Sales Executive & B2B Sales Executive, combining top-ranked Chemical Engineering background with practical experience in cosmetics, chemicals, and manufacturing industries.",
 	},
 	nav: {
 		brand: "Nguyen Minh Chau",
@@ -32,47 +32,47 @@ export const en = {
 		menu: "Menu",
 	},
 	stats: {
-		experienceYears: "Years in B2B sales",
+		experienceYears: "Years of B2B experience",
 		clients: "B2B clients managed",
-		ordersPerYear: "Orders handled / year",
-		retention: "Client retention rate",
-		newPerMonth: "New clients / month",
+		ordersPerYear: "Orders handled per year",
+		retention: "Customer retention rate",
+		newPerMonth: "New clients per month",
 	},
 	hero: {
 		name: "Nguyen Minh Chau",
-		role: "Chemical Sales Engineer",
-		subrole: "B2B Sales Executive · Chemical Technology background",
-		available: "Open to B2B & industrial sales opportunities",
+		role: "Chemical Sales Executive",
+		subrole: "B2B Sales Executive · Chemical Engineering background",
+		available: "Open to B2B & industrial business opportunities",
 		tagline:
-			"Turning chemistry expertise into commercial results — connecting industrial and B2B clients with the right solutions.",
+			"Supporting customers in product development with suitable and effective raw material solutions.",
 		summary:
-			"I believe successful sales is not about selling a product, but about connecting customers with the right solution for their needs. Over the past 2 years working with B2B clients, I have built relationships, negotiated deals, and identified new business opportunities — and I am eager to keep creating value for both customers and the organization.",
+			"For me, sales is not only about presenting products but also about conveying the story and value behind each solution. With over 2 years of experience working with B2B clients, I have built relationships, negotiated deals, and developed business opportunities — and I aim to continue creating value for both customers and companies.",
 		location: "Ho Chi Minh City, Vietnam",
 	},
 	about: {
-		kicker: "About me",
-		title: "A scientist who sells with substance",
+		kicker: "About",
+		title: "Stories create connection, connection creates value",
 		paragraphs: [
-			"I am a B2B Sales Executive with an honors degree in Chemical Technology, which lets me speak both the language of the lab and the language of business. I help industrial, chemical and manufacturing clients find materials and solutions that genuinely fit their products and market positioning.",
-			"Across more than two years in technical sales I have owned the full cycle — prospecting, consultation, quotation, negotiation and contract — while keeping delivery on track and clients coming back. Before sales, my research and teaching roles sharpened the analytical rigor and communication I rely on every day.",
+			"As a Chemical Engineering graduate pursuing a career in B2B sales, I combine technical knowledge with commercial thinking to provide suitable solutions, build customer relationships, and support business growth.",
+			"My technical background helps me understand products in depth, while my sales experience helps me understand market needs. This combination allows me to bridge technical requirements and real business value.",
 		],
 		highlightsTitle: "What sets me apart",
 		highlights: [
 			{
-				title: "Chemistry meets commercial",
-				text: "An engineering background that turns technical depth into consultative, trusted advice.",
+				title: "Where chemistry meets business",
+				text: "A technical foundation that turns expertise into trusted consulting.",
 			},
 			{
 				title: "Trusted by 50+ B2B clients",
-				text: "Across cosmetics, chemical and manufacturing sectors, with 90%+ retention.",
+				text: "In cosmetics, chemicals, and manufacturing, with over 90% retention rate.",
 			},
 			{
-				title: "Owns the full sales cycle",
-				text: "From first contact and quotation to negotiation and signed contract.",
+				title: "End-to-end sales ownership",
+				text: "From prospecting, quoting, negotiating to closing deals.",
 			},
 			{
-				title: "Honors graduate",
-				text: 'Chemical Technology (Advanced Program), GPA 8.14/10, city-level "Five-Good Student".',
+				title: "Graduated with Distinction",
+				text: 'Chemical Engineering (Honors Program), GPA 8.14/10, "5-Good Student" award at city level.',
 			},
 		],
 		languagesTitle: "Languages",
@@ -82,52 +82,52 @@ export const en = {
 		},
 		proficiency: {
 			native: "Native",
-			b2: "Professional (VSTEP B2)",
+			b2: "VSTEP B2",
 		},
 	},
 	experience: {
 		kicker: "Career path",
-		title: "Professional experience",
+		title: "Work experience",
 		subtitle:
-			"From the chemistry lab to the front line of B2B sales — a path built on technical credibility and client trust.",
+			"The journey from laboratory research to B2B sales, where I continuously learn and build experience based on technical expertise and customer trust.",
 		skillsLabel: "Key skills",
 		items: {
 			tuongNgoc: {
 				company: "Tuong Ngoc International Investment Co., Ltd.",
 				role: "Sales Executive",
 				bullets: [
-					"Managed and developed relationships with over 50 business clients in the cosmetics, chemical and manufacturing sectors.",
-					"Generated an average of 5–10 new customers per month through online channels, referrals and customer introductions.",
-					"Provided product and material consultation tailored to each client’s business needs and market positioning.",
-					"Owned the sales process end to end — from prospecting and quotation to negotiation and contract finalization.",
-					"Monitored and coordinated more than 200 orders annually, ensuring on-time delivery and a customer retention rate above 90%.",
-					"Analyzed market trends and customer needs to surface new business opportunities and support revenue growth.",
+					"Developed and managed 50+ B2B clients in cosmetics, chemicals, and manufacturing industries.",
+					"Actively acquired 5–10 new clients per month through online channels and referrals.",
+					"Provided raw material consultation based on product positioning and market strategy.",
+					"Handled the full sales cycle from prospecting, quotation, negotiation to contract signing.",
+					"Processed 200+ orders per year, ensuring delivery timelines and maintaining over 90% customer satisfaction.",
+					"Analyzed market trends and customer needs to propose new business opportunities, contributing to company revenue growth.",
 				],
 			},
 			naturalProductLab: {
 				company:
-					"Natural Product & Medicinal Chemistry Lab — University of Science, VNU-HCM",
+					"Natural Products & Medicinal Chemistry Laboratory — University of Science, VNU-HCM",
 				role: "Research Intern",
 				bullets: [
-					"Conducted compound isolation, structural characterization and biological activity evaluation.",
-					"Applied UV-Vis spectroscopy for polyphenol quantification and activity assessment.",
+					"Conducted compound isolation, structural elucidation, and bioactivity evaluation.",
+					"Used UV-Vis spectroscopy to quantify polyphenols and assess activity.",
 				],
 			},
 			teachingAssistant: {
 				company: "Faculty of Chemistry — University of Science, VNU-HCM",
 				role: "Teaching Assistant",
 				bullets: [
-					"Assisted lecturers in evaluating student performance and projects under CDIO standards, helping teams earn Outstanding Presentation Awards three years in a row.",
-					"Planned and managed project timelines using OPPM and Gantt charts.",
+					"Assisted lecturers in evaluating student performance and projects under CDIO standards, helping student teams achieve outstanding project reports for 3 consecutive years.",
+					"Planned and managed project progress using OPPM and Gantt Chart.",
 				],
 			},
 			cepp: {
 				company:
-					"Key Laboratory of Chemical Engineering & Petroleum Processing (CEPP) — HCMUT",
-				role: "Research Intern",
+					"Key Laboratory of Chemical and Petroleum Engineering (CEPP) — HCMUT",
+				role: "Intern",
 				bullets: [
-					"Participated in a scientific research project within the laboratory.",
-					"Developed a process for synthesizing materials with enhanced antibacterial properties.",
+					"Participated in scientific research projects.",
+					"Developed antibacterial material synthesis processes for practical applications.",
 				],
 			},
 		},
@@ -135,40 +135,40 @@ export const en = {
 	achievements: {
 		kicker: "Impact",
 		title: "Key achievements",
-		subtitle: "Measurable results from real B2B sales work.",
+		subtitle: "Measurable outcomes from real-world B2B sales experience.",
 		highlightsTitle: "Recognition",
 		highlights: [
 			{
-				title: 'City-level "Five-Good Student"',
-				text: "Named among Ho Chi Minh City’s 307 outstanding students and awarded the title in 2023.",
+				title: '"5-Good Student" City Level Award',
+				text: "One of 307 outstanding students in Ho Chi Minh City, awarded in 2023.",
 			},
 			{
-				title: "Published researcher",
-				text: "Co-author of a paper in an international peer-reviewed journal.",
+				title: "Published scientific paper",
+				text: "Co-author of a peer-reviewed international journal article.",
 			},
 			{
-				title: "Honors engineering degree",
-				text: "Graduated with Honors in Chemical Technology — GPA 8.14/10.",
+				title: "Distinction Degree",
+				text: "Graduated with distinction in Chemical Engineering — GPA 8.14/10.",
 			},
 		],
 	},
 	skills: {
 		kicker: "Capabilities",
-		title: "Technical & sales skills",
+		title: "Technical & business skills",
 		subtitle:
-			"A blend of commercial instinct and scientific rigor — built for technical, consultative selling.",
+			"The combination of business acumen and scientific rigor — suitable for technical sales and consulting roles.",
 		groups: {
 			sales: {
 				title: "Sales & Business",
-				desc: "B2B selling, negotiation and account growth.",
+				desc: "B2B sales, negotiation, and customer development.",
 			},
 			technical: {
 				title: "Technical & Chemistry",
-				desc: "The scientific foundation behind consultative selling.",
+				desc: "Scientific foundation behind consultative sales.",
 			},
 			professional: {
-				title: "Professional & Soft Skills",
-				desc: "How I work with clients, teams and stakeholders.",
+				title: "Professional & Soft skills",
+				desc: "How I work with clients, teams, and partners.",
 			},
 		},
 		glossary: {
@@ -177,7 +177,7 @@ export const en = {
 			negotiation: "Negotiation",
 			marketAnalysis: "Market Analysis",
 			clientRelations: "Client Relationship Management",
-			prospecting: "Prospecting & Lead Generation",
+			prospecting: "Prospecting",
 			chemistryKnowledge: "Chemistry & Materials Knowledge",
 			uvVis: "UV-Vis Spectroscopy",
 			compoundIsolation: "Compound Isolation",
@@ -187,88 +187,88 @@ export const en = {
 			communication: "Communication",
 			presentation: "Presentation",
 			leadership: "Leadership",
-			mentoring: "Coaching & Mentoring",
+			mentoring: "Mentoring",
 			timeManagement: "Time Management",
 			teamwork: "Teamwork",
 			labResearch: "Laboratory Research",
 		},
 	},
 	education: {
-		kicker: "Academic foundation",
-		title: "Education",
-		degree: "Bachelor of Engineering — Chemical Technology (Advanced Program)",
+		kicker: "Education",
+		title: "Academic background",
+		degree: "Bachelor of Chemical Engineering (Honors Program)",
 		faculty: "Faculty of Chemistry",
-		school: "Ho Chi Minh City University of Science, VNU-HCM",
-		period: "Class of 2023",
+		school: "University of Science, Vietnam National University HCMC",
+		period: "Graduated 2024",
 		gpaLabel: "GPA",
 		gpaValue: "8.14 / 10",
-		honorsTitle: "Honors & distinctions",
+		honorsTitle: "Honors & achievements",
 		honors: [
-			"Graduated with Honors — GPA 8.14/10.",
-			'Top 307 outstanding students of Ho Chi Minh City; city-level "Five-Good Student" (2023).',
-			"Multiple merit-based and academic scholarships across all undergraduate years.",
-			"Co-author of a peer-reviewed paper published in an international journal.",
+			"Graduated with distinction — GPA 8.14/10.",
+			'One of 307 outstanding students in Ho Chi Minh City; "5-Good Student" award (2023).',
+			"Received multiple academic scholarships throughout university.",
+			"Co-author of a peer-reviewed international journal paper.",
 		],
 	},
 	certifications: {
-		kicker: "Credentials",
-		title: "Certifications & distinctions",
+		kicker: "Certifications",
+		title: "Certificates & awards",
 		items: {
 			vstep: {
 				title: "English Proficiency — VSTEP B2",
-				desc: "Certified upper-intermediate English, supporting confident communication with international B2B clients.",
+				desc: "Intermediate English certification for reading and understanding technical documents.",
 			},
 			fiveGoodStudent: {
-				title: '"Five-Good Student" — City Level',
-				desc: "Recognized among Ho Chi Minh City’s 307 outstanding students and awarded the title in 2023.",
+				title: '"5-Good Student" Award — City Level',
+				desc: "One of 307 outstanding students in Ho Chi Minh City, awarded in 2023.",
 			},
 			honors: {
-				title: "Honors Engineering Degree",
-				desc: "Graduated with Honors in Chemical Technology (Advanced Program), GPA 8.14/10.",
+				title: "Distinction Degree",
+				desc: "Graduated with Distinction in Chemical Engineering (Honors Program), GPA 8.14/10.",
 			},
 			scholarships: {
-				title: "Merit Scholarships",
-				desc: "Awarded multiple merit-based and academic scholarships throughout undergraduate studies.",
+				title: "Academic Scholarships",
+				desc: "Received multiple scholarships based on academic performance throughout university.",
 			},
 		},
 	},
 	projects: {
-		kicker: "Selected work",
-		title: "Key projects",
+		kicker: "Featured projects",
+		title: "Highlighted projects",
 		subtitle:
 			"Research and academic projects that built the technical depth behind my consultative sales approach.",
 		items: {
 			compoundResearch: {
-				title: "Bioactive Compound Research",
-				org: "Natural Product & Medicinal Chemistry Lab, VNU-HCM",
+				title: "Bioactive compound research",
+				org: "Natural Products & Medicinal Chemistry Lab, VNU-HCM",
 				summary:
-					"Isolated and structurally characterized natural compounds and evaluated their biological activity, using UV-Vis spectroscopy for polyphenol quantification and activity assessment.",
+					"Isolation and structural elucidation of natural compounds, bioactivity evaluation, and UV-Vis spectroscopy analysis of polyphenols.",
 			},
 			antibacterialMaterials: {
-				title: "Antibacterial Materials Synthesis",
-				org: "Key Lab of Chemical Engineering & Petroleum Processing (CEPP), HCMUT",
+				title: "Antibacterial material synthesis",
+				org: "CEPP Key Laboratory, HCMUT",
 				summary:
-					"Contributed to a scientific research project and developed a process for synthesizing materials with enhanced antibacterial properties for everyday applications.",
+					"Participated in research and developed antibacterial material synthesis processes for real-world applications.",
 			},
 			publishedPaper: {
-				title: "Peer-Reviewed Publication",
+				title: "Peer-reviewed publication",
 				org: "International scientific journal",
 				summary:
-					"Co-authored a scientific paper published in an international peer-reviewed journal, contributing to experimental design and data analysis.",
+					"Co-authored a peer-reviewed international journal paper, contributing to experimental design and data analysis.",
 			},
 			studentProjects: {
-				title: "CDIO Student Project Mentoring",
+				title: "CDIO student project mentoring",
 				org: "Faculty of Chemistry, VNU-HCM",
 				summary:
-					"Mentored student teams under CDIO standards — their projects earned Outstanding Presentation Awards three years running — and managed timelines with OPPM and Gantt charts.",
+					"Mentored student projects under CDIO standards — teams achieved outstanding report results for 3 consecutive years — and managed progress using OPPM and Gantt Chart.",
 			},
 		},
 	},
 	contact: {
-		kicker: "Let’s talk",
-		title: "Get in touch",
+		kicker: "Let’s connect",
+		title: "Contact",
 		subtitle:
-			"Looking for a sales professional who understands the chemistry as well as the customer? Let’s connect.",
+			"Looking for someone who understands both chemistry and business? Let’s connect.",
 		location: {
 			label: "Location",
 			value: "Ho Chi Minh City, Vietnam",
@@ -279,17 +279,15 @@ export const en = {
 			linkedin: "LinkedIn",
 		},
 		ctaTitle: "Open to new opportunities",
-		ctaText:
-			"Available for B2B, technical and industrial sales roles. The fastest way to reach me is by email.",
+		ctaText: "Open to B2B, technical sales, and industrial roles.",
 		ctaButton: "Email me",
 	},
 	footer: {
-		tagline:
-			"Chemical Sales Engineer bridging technical depth and commercial results.",
+		tagline: "B2B Sales Executive.",
 		navTitle: "Explore",
 		connectTitle: "Connect",
 		rights: "All rights reserved.",
-		builtWith: "Designed & built with React, TanStack & Motion.",
+		builtWith: "",
 	},
 };
 

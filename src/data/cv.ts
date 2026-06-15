@@ -11,7 +11,7 @@ import type {
 
 export const profile = {
 	avatar: "/avatar.jpg",
-	cvFile: "/CV.pdf",
+	cvFile: "/Sales_Executive_Nguyen_Minh_Chau_CV.pdf",
 	linkedin: "https://www.linkedin.com/in/charlottechaung",
 	email: "charlotte.chaunguyen@gmail.com",
 	phone: "+84 941 225 865",
@@ -182,6 +182,5 @@ export const navSections = [
 	"achievements",
 	"skills",
 	"education",
-	"projects",
 	"contact",
 ] as const;

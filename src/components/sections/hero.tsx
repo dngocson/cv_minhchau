@@ -64,12 +64,12 @@ export function Hero() {
 							{t("hero.role")}
 						</motion.p>
 
-						<motion.p
+						{/* <motion.p
 							variants={item}
 							className="mt-1 text-sm font-medium text-muted-foreground"
 						>
 							{t("hero.subrole")}
-						</motion.p>
+						</motion.p> */}
 
 						<motion.p
 							variants={item}
