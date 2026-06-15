@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d7d8a" />
+
+    <title>Nguyen Minh Chau — Chemical Sales Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Nguyen Minh Chau, a Chemical Sales Engineer and B2B Sales Executive pairing an honors Chemical Technology background with proven results across cosmetics, chemical and manufacturing markets."
+    />
+    <meta name="author" content="Nguyen Minh Chau" />
+    <meta
+      name="keywords"
+      content="Chemical Sales Engineer, B2B Sales, Technical Sales, Chemical Technology, Sales Executive, Vietnam"
+    />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Nguyen Minh Chau — Chemical Sales Engineer" />
+    <meta
+      property="og:description"
+      content="B2B Sales Executive with an honors Chemical Technology background. Turning chemistry expertise into commercial results."
+    />
+    <meta property="og:image" content="/avatar.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Apply persisted theme & language before paint to avoid flashing -->
+    <script>
+      (() => {
+        try {
+          const parsed = JSON.parse(localStorage.getItem('cv-settings') || '{}')
+          const state = parsed?.state || {}
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const prefersVi = (navigator.language || 'en').toLowerCase().indexOf('vi') === 0
+          const theme = state.theme || (prefersDark ? 'dark' : 'light')
+          const lang = state.language || (prefersVi ? 'vi' : 'en')
+          const root = document.documentElement
+          if (theme === 'dark') root.classList.add('dark')
+          root.style.colorScheme = theme
+          root.lang = lang
+        } catch {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
